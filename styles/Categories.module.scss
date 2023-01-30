@@ -1,0 +1,18 @@
+.Container
+{
+    width:100vw;
+    .wrapper
+    {
+        display: flex;
+        // padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 3px;
+        .item
+        {
+            flex: 2;
+            // width: 100%;
+            // height: auto;
+        }
+    }
+}

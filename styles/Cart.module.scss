@@ -1,0 +1,151 @@
+.Container {
+  .wrapper {
+    .title {
+      text-align: center;
+      font-weight: 300;
+      // background-color: red;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 13px;
+      .topButton {
+        padding: 15px;
+        font-weight: 300;
+      }
+      .topButton:nth-child(1) {
+        border: none;
+        background-color: transparent;
+        border: 2px solid black;
+        cursor: pointer;
+      }
+      .topButton:nth-child(3) {
+        border: none;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        // border:;
+      }
+      .TopTexts {
+        padding: 10px;
+        font-size: 20px;
+      }
+      .TopText {
+        cursor: pointer;
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+        margin: 0px 10px;
+      }
+    }
+    .Bottom
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .info
+        {
+            flex: 3;
+            .product
+            {
+                display: flex;
+                // justify-content: center;
+                // align-items: center;
+                .image
+                {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .details{
+                    margin: 20px;
+                    padding: 20px;
+                    flex: 2;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    .productName
+                    {
+                        font-weight: 300;
+                        font-size: 18px;
+                        // padding: 20px;
+                        font-family: 'Neucha', cursive;
+                        padding-bottom: 10px;
+                    }
+                    .productId
+                    {
+                        padding-bottom: 10px;
+                        font-size: 18px;
+                        font-family: 'Neucha', cursive;
+
+                    }
+                    .productColor
+                    {
+                        width: 30px;
+                        height: 30px;
+                        padding-bottom: 10px;
+                        border-radius: 50%;
+                       background-color: rgb(15, 9, 87);
+                    }
+                    .size
+                    {
+                        padding-bottom: 10px;
+                        font-size: 18px;
+                        font-family: 'Neucha', cursive;
+
+                    }
+                }
+                .priceDetails
+                {
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    .AmountOfProduct
+                    {
+                        font-size: 25px;
+                    }
+                    .price
+                    {
+                        font-size: 25px;
+                    }
+                }
+            }
+            
+        }
+        .summary{
+            flex: 1;
+            border: 1px solid gray;
+            padding: 15px;
+            height: 50vh;
+            // margin: 20px 0px;
+            .subTotal
+            {
+              display: flex;
+              // justify-content: center;
+              // align-items: center;
+            }
+            .estimatedShipping
+          {
+            display: flex;
+            // justify-content: center;
+            // align-items: center;
+          }
+          .discount
+          {
+            display: flex;
+            // justify-content: center;
+            // align-items: center;
+          }
+          .total{
+            display: flex;
+            // justify-content:center;
+            // align-items: center;
+          }
+        }
+    }
+  }
+}
